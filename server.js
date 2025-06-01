@@ -8,8 +8,8 @@ app.use(cors());
 app.use(express.json());
 
 // Use your Razorpay dashboard keys here exactly
-const key_id = "rzp_test_YGzJ3XnkevuKyl";
-const key_secret = "r4KcfR2naosrKd70lVrwdhCA";
+const key_id = "rzp_test_ZbZidO7p76BUBV";
+const key_secret = "OpGf4moFKr61tLp0NhEsdbGN";
 
 const razorpayInstance = new Razorpay({
   key_id,
